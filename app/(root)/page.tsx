@@ -9,30 +9,41 @@ export default function LandingPage() {
         <nav className="flex w-[30vw] items-center">
           <ul className="flex flex-1 gap-30">
             <li>
-              <a href="#" className="text-gray-900 text-[18px]">
+              <a
+                href="#"
+                className="text-gray-900 text-[18px] hover:text-gray-500 hover:transition-colors duration-300"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-900 text-[18px]">
+              <a
+                href="#"
+                className="text-gray-900 text-[18px] hover:text-gray-500 hover:transition-colors duration-300"
+              >
                 Journey
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-900 text-[18px]">
+              <a
+                href="#"
+                className="text-gray-900 text-[18px] hover:text-gray-500 hover:transition-colors duration-300"
+              >
                 Services
               </a>
             </li>
           </ul>
         </nav>
         {/* --------------------------------------------------------------------------- */}
-        <h4 className="flex w-[40vw]  justify-center items-center text-gray-900">
+        <div className="flex w-[40vw] text-[36px] justify-center items-center text-gray-900">
           oachristhedev
-        </h4>
+        </div>
         {/* --------------------------------------------------------------------------- */}
         <div className="flex w-[30vw] justify-end items-center gap-15">
-          <button className="but text-gray-900 text-[18px]">Contacts</button>
-          <button className="but w-fit rounded bg-gray-900 text-gray-50 text-[18px]">
+          <button className="but text-gray-900 text-[18px] hover:text-gray-500 hover:transition-colors duration-300">
+            Contacts
+          </button>
+          <button className="but w-fit rounded bg-gray-900 text-gray-50 text-[18px] hover:bg-gray-300 hover:text-gray-900 transition-colors duration-300">
             Get In Touch
           </button>
         </div>
@@ -41,17 +52,17 @@ export default function LandingPage() {
       {/* --------------------------------------------------------------------------- */}
       <main className="flex flex-col  bg-gray-100 px-[5vw]">
         {/* --------------------------------------------------------------------------- */}
-        {/* HomeScreen */}
+        {/* Page 01 */}
         {/* --------------------------------------------------------------------------- */}
-        <section className="flex flex-col  box-border justify-center py-[10vh]">
+        <section className="flex flex-col box-border justify-center gap-15 py-[10vh]">
           {/* --------------------------------------------------------------------------- */}
 
           <h1 className="text-gray-900 capitalize">It begins NOW!</h1>
           {/* --------------------------------------------------------------------------- */}
           <div className="flex h-[60vh] gap-4">
-            <div className="flex flex-[3] h-full bg-gray-300"></div>
+            <div className="flex flex-[3] h-full bg-gray-300">.</div>
             {/* --------------------------------------------------------------------------- */}
-            <div className="flex flex-col flex-1 px-8 py-16 justify-between h-full bg-gray-900 text-gray-50">
+            <div className="flex flex-col flex-1  px-8 py-16 justify-between h-full bg-gray-900 text-gray-50">
               <div className="flex flex-col">
                 <h3>Header</h3>
                 <p>
@@ -67,7 +78,7 @@ export default function LandingPage() {
                 </p>
               </div>
 
-              <button className="but w-fit bg-gray-50 text-gray-900 text-[18px]">
+              <button className="but w-fit bg-gray-50 text-gray-900 text-[20px] hover:bg-gray-300 hover:text-gray-900 transition-colors duration-300">
                 Learn More
               </button>
             </div>
@@ -76,14 +87,16 @@ export default function LandingPage() {
           {/* --------------------------------------------------------------------------- */}
         </section>
         {/* --------------------------------------------------------------------------- */}
-        <section className=" box-border flex flex-col py-[10vh] gap-15 bg-gray-50">
+        {/* Page 02 */}
+        {/* --------------------------------------------------------------------------- */}
+        <section className=" box-border flex flex-col py-[10vh] gap-25">
           {/* --------------------------------------------------------------------------- */}
-          <div className="flex flex-col justify-center h-full gap-15">
+          <div className="flex flex-col justify-center h-full gap-30">
             <h2>Header</h2>
             <div className="flex h-full gap-5">
               <div className="flex flex-1 gap-5">
-                <div className="flex flex-1 h-[40vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
-                <div className="flex flex-1 h-[40vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
+                <div className="flex flex-1 h-[35vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
+                <div className="flex flex-1 h-[35vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
               </div>
               {/* --------------------------------------------------------------------------- */}
               <div className="flex flex-col flex-1 justify-between">
@@ -99,7 +112,7 @@ export default function LandingPage() {
                     Beatae nostrum quidem amet maxime.
                   </p>
                 </div>
-                <button className="capitalize font-medium w-60 py-3 flex justify-start  bg-none text-gray-900 text-[18px] border-b border-gray-900">
+                <button className="capitalize font-medium w-60 py-3 flex justify-start  bg-none text-gray-900 text-[20px] border-b-2 border-gray-900 hover:text-gray-500 hover:border-b-2 hover:border-gray-500 transition-all duration-300">
                   Learn More
                 </button>
               </div>
@@ -120,30 +133,59 @@ export default function LandingPage() {
                   </p>
                 </div>
 
-                <button className="capitalize font-medium w-60 py-3 flex justify-start  bg-none text-gray-900 text-[18px] border-b border-gray-900">
+                <button className="capitalize font-medium w-60 py-3 flex justify-start  bg-none text-gray-900 text-[20px] border-b-2 border-gray-900 hover:text-gray-500 hover:border-b-2 hover:border-gray-500 transition-all duration-300">
                   Learn More
                 </button>
               </div>
               <div className="flex flex-1 gap-5">
-                <div className="flex flex-1 h-[40vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
-                <div className="flex flex-1 h-[40vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
+                <div className="flex flex-1 h-[35vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
+                <div className="flex flex-1 h-[35vh] bg-gray-300 border-2 border-gray-500 rounded-md"></div>
               </div>
             </div>
-            <button className="but mx-auto w-fit bg-gray-900 text-gray-50 text-[18px]">
+            <button className="but mx-auto w-fit bg-gray-900 text-gray-50 text-[20px] hover:bg-gray-300 hover:text-gray-900 transition-colors duration-300">
               Learn More
             </button>
           </div>
           {/* ------------------------------------------------------------------ */}
           {/* ------------------------------------------------------------------ */}
         </section>
-        <section className="flex py-[]10vh">
-          <div className="flex w-[60vw] flex-col h-[50vh] bg-gray-300"></div>
+        {/* --------------------------------------------------------------------------- */}
+        {/* Page 03 */}
+        {/* --------------------------------------------------------------------------- */}
+        <section className="flex py-[10vh] gap-5">
+          <div className="flex w-[60vw] flex-col h-[50vh] gap-10 py-15 ">
+            <h2>What is this about?</h2>
+            <div className="flex flex-col gap-5 w-[90%]">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
+                doloremque quasi doloribus nam atque suscipit et quod vero
+                aliquam. Aut adipisci culpa dolorum laboriosam necessitatibus
+                quis rerum accusantium maiores veritatis quisquam commodi quae
+                mollitia, voluptatum, quidem ipsa unde nostrum consectetur, sed
+                aliquam dolor labore exercitationem! Totam veniam, laborum iusto
+                qui ab fuga voluptates, sequi nesciunt, vero nostrum id tempora
+                commodi.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                impedit ipsam, repellat possimus minus aliquid fugit eius
+                exercitationem voluptatem? Vel inventore laudantium perspiciatis
+                aperiam minus eveniet fugiat aspernatur nam accusantium quidem,
+                esse omnis numquam vitae hic quae sit eius mollitia quas,
+                dolorum facere commodi et quibusdam, eos molestias. Omnis
+                numquam culpa cumque. Pariatur, velit autem.
+              </p>
+            </div>
+          </div>
           <div className="flex w-[40vw] flex-col h-[50vh] bg-gray-600"></div>
         </section>
       </main>
-      <footer className="flex flex-col py-5 px-[5vw]">
+      <footer className="flex flex-col py-5 px-[5vw] border-t border-gray-300">
         <div className="flex"></div>
-        <div className="flex gap-1">©2025 <span className="font-bold">oachristhedev</span>, All Rights Reserved</div>
+        <div className="flex gap-1">
+          ©2025 <span className="font-bold">oachristhedev</span>, All Rights
+          Reserved
+        </div>
       </footer>
     </>
   );

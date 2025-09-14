@@ -30,22 +30,39 @@ body {
 }
 
 h1 {
-  @apply text-[96px];
+  @apply text-[96px] 
+  capitalize;
 }
 h2 {
-  @apply text-[60px];
+  @apply text-[72px] 
+  capitalize;
 }
 h3 {
-  @apply text-[48px];
+  @apply text-[60px] 
+  capitalize;
 }
 
 h4 {
+  @apply text-[48px]
+  font-medium
+  capitalize;
+}
+
+h5 {
   @apply text-[36px]
-  font-medium;
+  font-medium
+  capitalize;
+}
+
+h6 {
+  @apply text-[24px]
+  font-medium
+  capitalize;
 }
 
 p {
-  @apply text-[18px];
+  @apply text-[18px]
+  font-normal;
 }
 
 li {
